@@ -112,6 +112,16 @@ The robot consists of commercially available hardware components that work toget
 
 ---
 
+The following diagram illustrates the hardware components used in AgriVision and their interconnections. The Raspberry Pi 4 acts as the central controller, interfacing with the camera module, ultrasonic sensor, Bluetooth communication, and motor driver to enable autonomous navigation and AI-based disease detection.
+
+<p align="center">
+  <img src="docs/diagrams/02_Hardware_Architecture.svg" alt="Hardware Architecture" width="100%">
+</p>
+
+The modular hardware design allows easy maintenance and future expansion. Additional sensors or communication modules can be integrated without significant changes to the existing architecture.
+
+
+
 # 💻 Software Stack
 
 The software architecture combines computer vision, artificial intelligence, robotics, and embedded programming to perform autonomous crop monitoring.
