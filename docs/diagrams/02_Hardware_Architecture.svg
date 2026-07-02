@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" font-family="Inter, 'Segoe UI', Arial, sans-serif">
+
+<defs>
+  <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="rgba(0,0,0,0.15)"/>
+  </filter>
+</defs>
+
+<rect x="0" y="0" width="1600" height="1000" fill="#FFFFFF"/>
+<text x="786" y="66" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="30" font-weight="700" fill="#2E7D32">🌱 AgriVision</text>
+<text x="800" y="102" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#757575">Hardware Architecture</text>
+<rect x="670" y="148" width="260" height="78" rx="14" fill="#66BB6A" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="712.0" cy="187.0" r="20.0" fill="#FFFFFF"/>
+<rect x="701.6" y="181.0" width="20.8" height="12.0" rx="2.5" fill="none" stroke="#2E7D32" stroke-width="2.6"/>
+<rect x="722.4" y="184.8" width="2.4" height="4.3" fill="#2E7D32"/>
+<rect x="705.8" y="183.4" width="2.9" height="7.2" fill="#2E7D32"/>
+<rect x="711.6" y="183.4" width="2.9" height="7.2" fill="#2E7D32"/>
+<rect x="717.4" y="183.4" width="2.9" height="7.2" fill="#2E7D32"/>
+<text x="748" y="181.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Battery Pack</text>
+<text x="748" y="203.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">Power Supply</text>
+<line x1="800.0" y1="226.0" x2="800.0" y2="268.0" stroke="#757575" stroke-width="1.6"/>
+<polyline points="796.2,259.8 800.0,268.0 803.8,259.8" fill="none" stroke="#757575" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="630" y="268" width="340" height="100" rx="14" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="679.0" cy="318.0" r="27.0" fill="#FFFFFF"/>
+<circle cx="679.0" cy="312.1" r="4.0" fill="#FFFFFF"/>
+<circle cx="686.0" cy="315.4" r="4.0" fill="#FFFFFF"/>
+<circle cx="687.7" cy="323.0" r="4.0" fill="#FFFFFF"/>
+<circle cx="682.9" cy="329.0" r="4.0" fill="#FFFFFF"/>
+<circle cx="675.1" cy="329.0" r="4.0" fill="#FFFFFF"/>
+<circle cx="670.3" cy="323.0" r="4.0" fill="#FFFFFF"/>
+<circle cx="672.0" cy="315.4" r="4.0" fill="#FFFFFF"/>
+<path d="M 679.0 307.2 q -10 -12 -19 -5 q 5 12 19 9 Z" fill="#FFFFFF"/>
+<path d="M 679.0 307.2 q 10 -12 19 -5 q -5 12 -19 9 Z" fill="#FFFFFF"/>
+<text x="722" y="312.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Raspberry Pi 4</text>
+<text x="722" y="334.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">Main Controller</text>
+<path d="M 800.0 368.0 L 800.0 406.0 L 260.0 406.0 L 260.0 450.0" fill="none" stroke="#757575" stroke-width="1.6"/>
+<polyline points="256.2,441.8 260.0,450.0 263.8,441.8" fill="none" stroke="#757575" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="100" y="450" width="320" height="90" rx="14" fill="#66BB6A" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="144.0" cy="495.0" r="22.0" fill="#FFFFFF"/>
+<rect x="131.7" y="488.6" width="24.6" height="16.7" rx="4" fill="none" stroke="#2E7D32" stroke-width="2.6"/>
+<rect x="139.6" y="482.6" width="8.8" height="6" rx="1.5" fill="#2E7D32"/>
+<circle cx="144.0" cy="497.0" r="5.3" fill="none" stroke="#2E7D32" stroke-width="2.4"/>
+<text x="182" y="489.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Pi Camera</text>
+<text x="182" y="511.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">Module</text>
+<path d="M 800.0 368.0 L 800.0 406.0 L 620.0 406.0 L 620.0 450.0" fill="none" stroke="#757575" stroke-width="1.6"/>
+<polyline points="616.2,441.8 620.0,450.0 623.8,441.8" fill="none" stroke="#757575" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="460" y="450" width="320" height="90" rx="14" fill="#66BB6A" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="504.0" cy="495.0" r="22.0" fill="#FFFFFF"/>
+<rect x="493.0" y="493.3" width="22.0" height="11.4" rx="3" fill="none" stroke="#2E7D32" stroke-width="2.4"/>
+<circle cx="499.2" cy="499.0" r="4.8" fill="none" stroke="#2E7D32" stroke-width="2"/>
+<circle cx="508.8" cy="499.0" r="4.8" fill="none" stroke="#2E7D32" stroke-width="2"/>
+<path d="M 495.2 489.7 A 8.8 8.8 0 0 1 512.8 489.7" fill="none" stroke="#2E7D32" stroke-width="1.6" opacity="0.7"/>
+<path d="M 491.7 489.7 A 12.3 12.3 0 0 1 516.3 489.7" fill="none" stroke="#2E7D32" stroke-width="1.6" opacity="0.7"/>
+<text x="542" y="489.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Ultrasonic</text>
+<text x="542" y="511.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">Sensor</text>
+<path d="M 800.0 368.0 L 800.0 406.0 L 980.0 406.0 L 980.0 450.0" fill="none" stroke="#757575" stroke-width="1.6"/>
+<polyline points="976.2,441.8 980.0,450.0 983.8,441.8" fill="none" stroke="#757575" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="820" y="450" width="320" height="90" rx="14" fill="#66BB6A" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="864.0" cy="495.0" r="22.0" fill="#FFFFFF"/>
+<path d="M 864.0 483.1 L 864.0 506.9 L 871.9 500.5 L 856.1 489.5 M 864.0 483.1 L 871.9 489.5 L 856.1 500.5 L 864.0 506.9" fill="none" stroke="#2E7D32" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="902" y="489.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Bluetooth</text>
+<text x="902" y="511.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">Communication</text>
+<path d="M 800.0 368.0 L 800.0 406.0 L 1340.0 406.0 L 1340.0 450.0" fill="none" stroke="#757575" stroke-width="1.6"/>
+<polyline points="1336.2,441.8 1340.0,450.0 1343.8,441.8" fill="none" stroke="#757575" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1180" y="450" width="320" height="90" rx="14" fill="#66BB6A" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="1224.0" cy="495.0" r="22.0" fill="#FFFFFF"/>
+<rect x="1215.6" y="486.6" width="16.7" height="16.7" rx="3" fill="none" stroke="#2E7D32" stroke-width="2.6"/>
+<rect x="1221.0" y="492.0" width="6.0" height="6.0" fill="#2E7D32"/>
+<line x1="1218.6" y1="481.6" x2="1218.6" y2="486.6" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1218.6" y1="503.4" x2="1218.6" y2="508.4" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1210.6" y1="489.6" x2="1215.6" y2="489.6" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1232.4" y1="489.6" x2="1237.4" y2="489.6" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1224.0" y1="481.6" x2="1224.0" y2="486.6" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1224.0" y1="503.4" x2="1224.0" y2="508.4" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1210.6" y1="495.0" x2="1215.6" y2="495.0" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1232.4" y1="495.0" x2="1237.4" y2="495.0" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1229.4" y1="481.6" x2="1229.4" y2="486.6" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1229.4" y1="503.4" x2="1229.4" y2="508.4" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1210.6" y1="500.4" x2="1215.6" y2="500.4" stroke="#2E7D32" stroke-width="2.2"/>
+<line x1="1232.4" y1="500.4" x2="1237.4" y2="500.4" stroke="#2E7D32" stroke-width="2.2"/>
+<text x="1262" y="489.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Motor Driver</text>
+<text x="1262" y="511.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">L298N</text>
+<line x1="1340.0" y1="540.0" x2="1340.0" y2="630.0" stroke="#757575" stroke-width="1.6"/>
+<polyline points="1336.2,621.8 1340.0,630.0 1343.8,621.8" fill="none" stroke="#757575" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1190.0" y="630" width="300" height="90" rx="14" fill="#66BB6A" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="1234.0" cy="675.0" r="22.0" fill="#FFFFFF"/>
+<rect x="1222.2" y="668.8" width="17.6" height="12.3" rx="4" fill="none" stroke="#2E7D32" stroke-width="2.4"/>
+<line x1="1226.6" y1="671.8" x2="1226.6" y2="678.2" stroke="#2E7D32" stroke-width="1.8"/>
+<line x1="1231.0" y1="671.8" x2="1231.0" y2="678.2" stroke="#2E7D32" stroke-width="1.8"/>
+<line x1="1235.4" y1="671.8" x2="1235.4" y2="678.2" stroke="#2E7D32" stroke-width="1.8"/>
+<rect x="1239.8" y="672.0" width="6.2" height="6" fill="#2E7D32"/>
+<text x="1272.0" y="669.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Four DC Motors</text>
+<text x="1272.0" y="691.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">Propulsion</text>
+<line x1="1340.0" y1="720.0" x2="1340.0" y2="790.0" stroke="#757575" stroke-width="1.6"/>
+<polyline points="1336.2,781.8 1340.0,790.0 1343.8,781.8" fill="none" stroke="#757575" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1190.0" y="790" width="300" height="90" rx="14" fill="#2E7D32" stroke="#1B5E20" stroke-width="1.8" filter="url(#softShadow)"/>
+<circle cx="1234.0" cy="835.0" r="22.0" fill="#FFFFFF"/>
+<rect x="1226.1" y="827.1" width="15.8" height="15.8" rx="6" fill="none" stroke="#FFFFFF" stroke-width="2.4"/>
+<circle cx="1230.5" cy="835.0" r="2.6" fill="#FFFFFF"/>
+<circle cx="1237.5" cy="835.0" r="2.6" fill="#FFFFFF"/>
+<line x1="1234.0" y1="827.1" x2="1234.0" y2="821.1" stroke="#FFFFFF" stroke-width="2"/>
+<circle cx="1234.0" cy="819.1" r="2" fill="#FFFFFF"/>
+<circle cx="1224.2" cy="842.9" r="2.6" fill="#FFFFFF"/>
+<circle cx="1243.8" cy="842.9" r="2.6" fill="#FFFFFF"/>
+<text x="1272.0" y="829.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">Four-Wheel Robot</text>
+<text x="1272.0" y="851.0" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#E8F5E9">Chassis</text>
+</svg>
