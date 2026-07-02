@@ -121,6 +121,18 @@ The following diagram illustrates the hardware components used in AgriVision and
 The modular hardware design allows easy maintenance and future expansion. Additional sensors or communication modules can be integrated without significant changes to the existing architecture.
 
 
+---
+
+# 🧠 AI Disease Detection Pipeline
+
+The following pipeline illustrates how AgriVision processes crop images to identify plant diseases using deep learning. Images captured by the Raspberry Pi Camera Module undergo preprocessing with OpenCV before being analyzed by a TensorFlow Convolutional Neural Network (CNN). The predicted disease is then communicated to the user while the robot continues autonomous field monitoring.
+
+<p align="center">
+  <img src="docs/diagrams/03_AI_Disease_Detection_Pipeline.svg" alt="AI Disease Detection Pipeline" width="100%">
+</p>
+
+The deep learning model was trained using a Kaggle plant disease dataset and supports disease classification for **banana, tomato, and chilli** crops. The modular pipeline allows future integration of additional crop species and improved classification models.
+
 
 # 💻 Software Stack
 
