@@ -82,47 +82,17 @@ This project addresses these challenges by developing an AI-powered autonomous a
 
 ---
 
+---
+
 # 🏗️ System Architecture
 
-The AgriVision robot integrates robotics, embedded systems, computer vision, and artificial intelligence into a single autonomous platform. The Raspberry Pi 4 acts as the central controller, coordinating image acquisition, disease detection, autonomous navigation, and wireless communication.
+The following diagram illustrates the complete system architecture of **AgriVision**, showing how the Raspberry Pi coordinates image acquisition, AI-based disease detection, robot navigation, and Bluetooth communication.
 
-The robot continuously patrols agricultural fields while capturing images of crop leaves using the Raspberry Pi Camera Module. Captured images are preprocessed using OpenCV before being analyzed by a TensorFlow deep learning model trained on a Kaggle plant disease dataset. Based on the prediction results, the robot can notify the user through Bluetooth while continuing its autonomous navigation.
+<p align="center">
+  <img src="docs/diagrams/01_System_Architecture.svg" alt="AgriVision System Architecture" width="100%">
+</p>
 
-```text
-                     Farmer / Mobile Device
-                               ▲
-                               │
-                      Bluetooth Communication
-                               ▲
-                               │
-                    ┌─────────────────────┐
-                    │   Raspberry Pi 4    │
-                    │ (Main Controller)   │
-                    └─────────┬───────────┘
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-        ▼                     ▼                     ▼
- Raspberry Pi Camera     Motor Driver        Ultrasonic Sensor
-      Module                 │                    │
-        │                    ▼                    ▼
-        ▼             Four DC Motors      Obstacle Detection
- Image Acquisition
-        │
-        ▼
- OpenCV Image Processing
-        │
-        ▼
- TensorFlow Disease Detection
-        │
-        ▼
- Disease Classification
-        │
-        ▼
- Bluetooth Notification
-```
-
----
+The Raspberry Pi 4 serves as the central controller of the robot. Images captured using the Raspberry Pi Camera Module are processed using OpenCV before being classified by a TensorFlow deep learning model. Based on the prediction results, the robot can notify the user through Bluetooth while continuing autonomous navigation.
 
 
 # 🔩 Hardware Components
