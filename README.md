@@ -52,3 +52,134 @@ This project addresses these challenges by developing an AI-powered autonomous a
 - 🔋 Battery-powered portable operation
 - 🛠 Modular software architecture for future scalability
 
+
+
+---
+
+# 🏗️ System Architecture
+
+The AgriVision robot integrates robotics, embedded systems, computer vision, and artificial intelligence into a single autonomous platform. The Raspberry Pi 4 acts as the central controller, coordinating image acquisition, disease detection, autonomous navigation, and wireless communication.
+
+The robot continuously patrols agricultural fields while capturing images of crop leaves using the Raspberry Pi Camera Module. Captured images are preprocessed using OpenCV before being analyzed by a TensorFlow deep learning model trained on a Kaggle plant disease dataset. Based on the prediction results, the robot can notify the user through Bluetooth while continuing its autonomous navigation.
+
+```text
+                     Farmer / Mobile Device
+                               ▲
+                               │
+                      Bluetooth Communication
+                               ▲
+                               │
+                    ┌─────────────────────┐
+                    │   Raspberry Pi 4    │
+                    │ (Main Controller)   │
+                    └─────────┬───────────┘
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        │                     │                     │
+        ▼                     ▼                     ▼
+ Raspberry Pi Camera     Motor Driver        Ultrasonic Sensor
+      Module                 │                    │
+        │                    ▼                    ▼
+        ▼             Four DC Motors      Obstacle Detection
+ Image Acquisition
+        │
+        ▼
+ OpenCV Image Processing
+        │
+        ▼
+ TensorFlow Disease Detection
+        │
+        ▼
+ Disease Classification
+        │
+        ▼
+ Bluetooth Notification
+```
+
+---
+
+
+# 🔩 Hardware Components
+
+The robot consists of commercially available hardware components that work together to perform autonomous navigation and AI-based disease detection.
+
+| Component | Description |
+|-----------|-------------|
+| Raspberry Pi 4 | Main processing unit responsible for robot control and AI inference |
+| Raspberry Pi Camera Module | Captures high-resolution images of crop leaves |
+| Four DC Gear Motors | Provides robot locomotion |
+| Motor Driver Module | Controls motor direction and speed |
+| Ultrasonic Sensor | Detects obstacles during navigation |
+| Bluetooth (Built-in) | Enables wireless communication with mobile devices |
+| Battery Pack | Supplies power to the complete robot |
+| Four-Wheel Chassis | Mechanical platform supporting all hardware components |
+
+---
+
+# 💻 Software Stack
+
+The software architecture combines computer vision, artificial intelligence, robotics, and embedded programming to perform autonomous crop monitoring.
+
+| Software | Purpose |
+|----------|---------|
+| Python | Primary programming language |
+| Raspberry Pi OS | Operating System |
+| OpenCV | Image acquisition and preprocessing |
+| TensorFlow | Plant disease classification |
+| NumPy | Numerical computations |
+| Git & GitHub | Version control |
+| VS Code | Development environment |
+
+
+---
+
+# ⚙️ Project Workflow
+
+The overall execution of the robot follows the workflow shown below.
+
+```text
+Start Robot
+     │
+     ▼
+Initialize Raspberry Pi
+     │
+     ▼
+Initialize Camera
+     │
+     ▼
+Initialize Bluetooth
+     │
+     ▼
+Start Autonomous Navigation
+     │
+     ▼
+Capture Plant Image
+     │
+     ▼
+Image Preprocessing (OpenCV)
+     │
+     ▼
+Disease Prediction (TensorFlow)
+     │
+     ▼
+Healthy Plant?
+ ┌───────────────┐
+ │               │
+ │ YES           │ NO
+ │               │
+ ▼               ▼
+Continue     Display Disease
+Navigation       │
+                 ▼
+        Send Bluetooth Alert
+                 │
+                 ▼
+        Continue Navigation
+```
+
+
+
+
+
+
+
