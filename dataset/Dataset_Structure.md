@@ -1,43 +1,39 @@
-# 📁 Dataset Structure
+# 📁 Recommended Dataset Structure
 
-Example organization:
-
+```text
 dataset/
-
-├── Banana/
-
-│   ├── Healthy/
-
-│   └── Diseased/
-
-├── Tomato/
-
-│   ├── Healthy/
-
-│   └── Diseased/
-
-├── Chilli/
-
-│   ├── Healthy/
-
-│   └── Diseased/
-
-└── README.md
-
----
-
-# Dataset Split
-
-Training Set
-
-Validation Set
-
-Testing Set
+├── train/
+│   ├── Banana/
+│   ├── Tomato/
+│   └── Chilli/
+│
+├── valid/
+│   ├── Banana/
+│   ├── Tomato/
+│   └── Chilli/
+│
+├── test/
+│   ├── Banana/
+│   ├── Tomato/
+│   └── Chilli/
+│
+├── README.md
+├── Dataset_Details.md
+└── Dataset_Structure.md
+```
 
 ---
 
-# Notes
+## Dataset Split
 
-The original dataset is not included in this repository because of its large size.
+| Folder | Purpose |
+|---------|---------|
+| train/ | Model training |
+| valid/ | Hyperparameter tuning and validation |
+| test/ | Final model evaluation |
 
-Users can download the dataset from Kaggle and organize it using the above structure.
+---
+
+## Important Note
+
+The original dataset is **not included** in this repository. Users should download a compatible plant disease dataset (e.g., from Kaggle) and organize it using the above directory structure before training the model.
