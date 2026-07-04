@@ -8,33 +8,29 @@
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-FF6F00?style=for-the-badge&logo=tensorflow)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4-C51A4A?style=for-the-badge&logo=raspberrypi)
-![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
-
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-green?logo=opencv)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-4-red?logo=raspberrypi)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Documentation_Completed-brightgreen)
 </div>
 
 ---
 
-# 📑 Table of Contents
+## 📑 Table of Contents
 
-- [📖 Project Overview](#-project-overview)
-- [🎯 Problem Statement](#-problem-statement)
-- [🎯 Objectives](#-objectives)
-- [✨ Features](#-features)
-- [🏗️ System Architecture](#️-system-architecture)
-- [🔩 Hardware Components](#-hardware-components)
-- [💻 Software Stack](#-software-stack)
-- [⚙️ Project Workflow](#️-project-workflow)
-- [📁 Repository Structure](#-repository-structure)
-- [🧠 AI Disease Detection Pipeline](#-ai-disease-detection-pipeline)
-- [🤖 Autonomous Navigation System](#-autonomous-navigation-system)
-- [📡 Bluetooth Communication](#-bluetooth-communication)
-- [📊 Results](#-results)
-- [🚀 Installation](#-installation)
-- [📜 License](#-license)
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Hardware Components](#hardware-components)
+- [Software Stack](#software-stack)
+- [Repository Structure](#repository-structure)
+- [System Architecture](#system-architecture)
+- [Hardware Architecture](#hardware-architecture)
+- [AI Disease Detection Pipeline](#ai-disease-detection-pipeline)
+- [Installation](#installation)
+- [Future Improvements](#future-improvements)
+- [License](#license)
 
 ## 📖 Project Overview
 
@@ -93,6 +89,20 @@ The following diagram illustrates the complete system architecture of **AgriVisi
 </p>
 
 The Raspberry Pi 4 serves as the central controller of the robot. Images captured using the Raspberry Pi Camera Module are processed using OpenCV before being classified by a TensorFlow deep learning model. Based on the prediction results, the robot can notify the user through Bluetooth while continuing autonomous navigation.
+
+
+# 💻 Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| AI Framework | TensorFlow |
+| Computer Vision | OpenCV |
+| Hardware Platform | Raspberry Pi 4 |
+| Communication | Bluetooth |
+| Operating System | Raspberry Pi OS |
+| Mechanical System | Four-Wheel Differential Drive Robot |
+| Dataset | Kaggle Plant Disease Dataset |
 
 
 # 🔩 Hardware Components
