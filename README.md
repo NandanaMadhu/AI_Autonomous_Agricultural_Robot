@@ -104,6 +104,37 @@ The following diagram illustrates the complete system architecture of **AgriVisi
   <img src="docs/diagrams/04_Software_Architecture.svg.svg" width="900">
 </p>
 
+---
+
+# 🧠 AI Disease Detection Pipeline
+
+<p align="center">
+  <img src="docs/diagrams/03_AI_Disease_Detection_Pipeline.svg" width="900">
+</p>
+
+---
+
+# 🚗 Robot Navigation Workflow
+
+<p align="center">
+  <img src="docs/diagrams/05_Robot_Navigation_Workflow.svg.svg" width="900">
+</p>
+
+---
+
+# 🔌 Wiring Diagram
+
+<p align="center">
+  <img src="docs/diagrams/06_Wiring_Diagram.svg.svg" width="900">
+</p>
+
+---
+
+# 🔄 Complete Project Workflow
+
+<p align="center">
+  <img src="docs/diagrams/07_Project_Workflow.svg.svg" width="900">
+</p>
 
 The Raspberry Pi 4 serves as the central controller of the robot. Images captured using the Raspberry Pi Camera Module are processed using OpenCV before being classified by a TensorFlow deep learning model. Based on the prediction results, the robot can notify the user through Bluetooth while continuing autonomous navigation.
 
