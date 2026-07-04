@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Agrivison_banner.png" alt="AgriVision Banner" width="100%">
+  <img src="images/Agrivision_banner.png" alt="AgriVision Banner" width="100%">
 </p>
 
 
