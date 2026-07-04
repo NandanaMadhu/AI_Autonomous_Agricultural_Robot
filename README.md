@@ -85,8 +85,25 @@ This project addresses these challenges by developing an AI-powered autonomous a
 The following diagram illustrates the complete system architecture of **AgriVision**, showing how the Raspberry Pi coordinates image acquisition, AI-based disease detection, robot navigation, and Bluetooth communication.
 
 <p align="center">
-  <img src="docs/diagrams/01_System_Architecture.svg" alt="AgriVision System Architecture" width="100%">
+  <img src="docs/diagrams/01_System_Architecture.svg" width="900">
 </p>
+
+---
+
+# 🔩 Hardware Architecture
+
+<p align="center">
+  <img src="docs/diagrams/02_Hardware_Architecture.svg" width="900">
+</p>
+
+---
+
+# 💻 Software Architecture
+
+<p align="center">
+  <img src="docs/diagrams/04_Software_Architecture.svg" width="900">
+</p>
+
 
 The Raspberry Pi 4 serves as the central controller of the robot. Images captured using the Raspberry Pi Camera Module are processed using OpenCV before being classified by a TensorFlow deep learning model. Based on the prediction results, the robot can notify the user through Bluetooth while continuing autonomous navigation.
 
