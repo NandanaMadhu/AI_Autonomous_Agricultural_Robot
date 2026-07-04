@@ -101,7 +101,7 @@ The following diagram illustrates the complete system architecture of **AgriVisi
 # 💻 Software Architecture
 
 <p align="center">
-  <img src="docs/diagrams/04_Software_Architecture.svg" width="900">
+  <img src="docs/diagrams/04_Software_Architecture.svg.svg" width="900">
 </p>
 
 
